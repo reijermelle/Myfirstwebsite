@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-200 via-blue-100 to-white flex items-center justify-center p-8">
+    <div className="min-h-screen bg-gradient-to-br from-green-200 via-green-100 to-white flex items-center justify-center p-8">
       <div className="w-full max-w-md">
         {!isSubmitted ? (
           <div className="bg-white/30 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/20">
@@ -29,14 +29,14 @@ function App() {
                   id="name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full px-4 py-3 rounded-lg border-2 border-blue-200 focus:border-blue-400 focus:outline-none transition-colors duration-200 text-center text-lg"
+                  className="w-full px-4 py-3 rounded-lg border-2 border-green-200 focus:border-green-400 focus:outline-none transition-colors duration-200 text-center text-lg"
                   placeholder="Enter your name"
                   required
                 />
               </div>
               <button
                 type="submit"
-                className="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 text-lg"
+                className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 text-lg"
               >
                 Submit
               </button>
