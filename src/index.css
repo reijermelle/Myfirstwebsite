@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .neon-red {
+    animation: neon-glow 2s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes neon-glow {
+  0%, 100% {
+    text-shadow: 
+      0 0 5px #ef4444,
+      0 0 10px #ef4444,
+      0 0 15px #ef4444,
+      0 0 20px #ef4444,
+      0 0 35px #ef4444,
+      0 0 40px #ef4444;
+  }
+  50% {
+    text-shadow: 
+      0 0 2px #ef4444,
+      0 0 5px #ef4444,
+      0 0 8px #ef4444,
+      0 0 12px #ef4444,
+      0 0 18px #ef4444,
+      0 0 22px #ef4444;
+  }
+}
